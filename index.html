@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ArtifyX</title>
-    <!-- Link to external CSS stylesheet for styling -->
+    <!-- linking external css -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <!-- Navigation container with buttons for various actions -->
+      <!-- Navigation container with button tools -->
       <div class="nav-container">
-        <!-- Button to select the paint tool -->
+        <!-- Button for the paint tool -->
         <button class="icon-button" id="paint-btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@
             stroke="currentColor"
             class="w-9 h-9"
           >
-            <!-- SVG path for the paint icon -->
+            <!-- SVG for paint icon -->
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -31,12 +31,12 @@
           </svg>
         </button>
 
-        <!-- Button to select the eraser tool -->
+        <!-- eraser tool Button -->
         <button class="icon-button flex items-center justify-center" id="erase-btn">
           <i class="fa-solid fa-eraser h-8 w-8 text-[2rem]"></i>
         </button>
 
-        <!-- Button to clear the entire grid -->
+        <!-- clear grid button -->
         <button class="icon-button" id="clear-grid">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
             stroke="currentColor"
             class="w-9 h-9"
           >
-            <!-- SVG path for the clear grid icon -->
+            <!-- SVG icon for clear grid -->
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -55,7 +55,7 @@
           </svg>
         </button>
 
-        <!-- Button to download the artwork -->
+        <!-- (SVG) button for download icon -->
         <button class="icon-button" id="download-art">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@
             stroke="currentColor"
             class="w-9 h-9"
           >
-            <!-- SVG path for the download icon -->
+            <!-- SVG for download icon -->
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -74,13 +74,13 @@
           </svg>
         </button>
 
-        <!-- Color picker for selecting paint color -->
+        <!-- Colour picker for selecting colour -->
         <div class="color-picker">
           <input type="color" id="color-input" value="#000000" class="style2" />
         </div>
       </div>
 
-      <!-- Right side options for grid dimensions and creation -->
+      <!-- Right Side options for grid selection -->
       <div class="right flex items-center justify-start">
         <div class="options w-[95%]">
           <div class="opt-wrapper sliders-wrapper">
@@ -102,7 +102,7 @@
             </div>
           </div>
 
-          <!-- Button to create the grid based on slider values -->
+          <!-- Button for create grid -->
           <div class="opt-wrapper buttons-wrapper">
             <div class="buttons">
               <button
@@ -116,7 +116,7 @@
         </div>
       </div>
 
-      <!-- Container where the grid will be displayed -->
+      <!-- Container where grid will be displayed -->
       <div class="container"></div>
     </div>
 
