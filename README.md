@@ -31,5 +31,3 @@ To view ARTIFYX locally:
 For more projects and updates, visit my [portfolio](https://adi-gitx.vercel.app/).
 
 ---
-
-Feel free to adjust any details to better fit your preferences!
